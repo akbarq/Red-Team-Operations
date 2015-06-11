@@ -1,6 +1,6 @@
 # Requirements
 Python 2.7
 
-Libraries
-Requests
-base64
+### Libraries
+* Requests
+* base64
