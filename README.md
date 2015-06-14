@@ -36,8 +36,8 @@ Use quotes if you plan to transmit data with whitespace
 * Avoid sending data using IP addresses.
 * Enable  logging of http cookies in Apache ( you can use any server you like). The sample config file in this repository **“000-default.conf”** in the  **“apache_conf”** folder can be used to enable cookie logging. 
 * Place the  config file in **/etc/apache2/sites-enabled/** and restart Apache. You should now see a file called **“cookies.log”** in **/var/log/apache2**.
-* Execute the badcookie script from the victim machie / network
-* After executing the script you should see the following log entry in cookies.log. The log shows the transmitted base64 cookie.
+* Execute the badcookie script from the victim machine / network
+* After executing the script you should see the following log entry in cookies.log file. The log file shows the transmitted base64 cookie.
 
 `10.0.0.2 - - [13/Jun/2015:18:48:17 -0500] "GET / HTTP/1.1" 200 3256 "-" "Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; MDDCJS; :11.0) like Gecko" "dGVzdGluZw=="`
 
