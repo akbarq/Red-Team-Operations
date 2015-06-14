@@ -30,7 +30,7 @@ Use quotes if you plan to transmit data with whitespace
 
 #Setting up the data exfiltration process
 
-* To make the network traffic look convincing setup a site with a proper domain. It can be a news, blog or any other site. So when you exfiltrate data the network traffic will look like normal web traffic going to a legitimate site. (atleast this is what we are trying to accomplish)
+* To make the network traffic look convincing setup a site with a proper domain. It can be a news, blog or any other site, so when you exfiltrate data the network traffic will look like normal web traffic going to a legitimate site. (atleast this is what we are trying to accomplish)
 * Fill the site with some real looking content
 * If you are testing systems where there is a web filtering proxy involved, try and use domain which is  more than a year old as web filtering proxies block new domains. In either case using an aged domain name will be beneficial.
 * Avoid sending data using IP addresses.
