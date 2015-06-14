@@ -5,7 +5,7 @@ Python 2.7
 * Requests
 
 # Description
-Bad cookie exfiltrates data via base64 encoded HTTP cookies.
+Badcookie exfiltrates data via base64 encoded HTTP cookies.
 
 # Some use cases
 * The script can be used for testing the effectiveness of data loss prevention systems.
@@ -16,7 +16,7 @@ Bad cookie exfiltrates data via base64 encoded HTTP cookies.
 #Things to keep in mind
 * The script transmits data via http not https
 * Base64 encoded data can be easily decoded
-* Be mindful of the cookie size 
+* Be mindful of the cookie size when transmitting data
 
 #Usage
 `badcookie.py <destination_host> <exfiltrated_data>`
