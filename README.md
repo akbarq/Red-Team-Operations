@@ -34,7 +34,7 @@ Use quotes if you plan to transmit data with whitespace
 * Fill the site with real looking content.
 * If you are testing systems where there is a web filtering proxy involved, try and use a  domain name which is more than a year old as web filtering proxies block new domains. In either case using an aged domain name will be beneficial.
 * Avoid sending data using IP addresses.
-* Enable  logging of http cookies in Apache ( you can use any server you like). The sample config file in [https://github.com/akbarq/badcookie/tree/master/apache_conf] can be used to enable cookie logging. 
+* Enable  logging of http cookies in Apache web server ( you can use any server you like). The sample config file  [000-default.conf](https://github.com/akbarq/badcookie/tree/master/apache_conf) can be used to enable cookie logging. 
 * Place the **000-default.conf** file in **/etc/apache2/sites-enabled/** and restart Apache. You should now see a file called **“cookies.log”** in **/var/log/apache2**.
 * Execute the badcookie script from the victim machine / network.
 * After executing the script you should see the following log entry in cookies.log file. The log file shows the transmitted base64 cookie.
