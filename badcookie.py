@@ -30,7 +30,7 @@ try:
         'Host': '%s' % sys.argv[1],
         'DNT': '1',
         'Connection': 'Keep-Alive',
-        'Cookie': '%s' % base64.b64encode(sys.argv[2]), # plain text converted to base64 encoding
+        'Cookie': '%s' % base64.b64encode(sys.argv[2]), # plain text converted to base64 encoded data
         }
     r = requests.get(url, headers=headers)
     print 'Message sent - Got HTTP Response Code %s' % r.status_code
