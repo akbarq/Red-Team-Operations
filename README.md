@@ -7,7 +7,7 @@ Python 2.7
 # Description
 Badcookie exfiltrates data via base64 encoded HTTP cookies.
 
-# Some use cases
+# Use cases
 * The script can be used for testing the effectiveness of data loss prevention systems.
 * Outbound network traffic monitoring systems.
 * Red Team / Blue team exercises e.g. see if the blue team can detect data exfiltraion.
